@@ -1,8 +1,8 @@
 {
     "spark_info": {
-        "app_id": "yourappid",
-        "api_secret": "yourapisecret",
-        "api_key": "yourapikey",
+        "app_id": "48be081c",
+        "api_secret": "MGY5YWFlYTZkYjM2ZGQ1YzQ4MGI3ZGUx",
+        "api_key": "eba3e07dade2072919b90fb24e93934c",
         "domain": "generalv3",
         "Spark_url": "ws://spark-api.xf-yun.com/v3.1/chat",
         "prompt": "",

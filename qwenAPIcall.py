@@ -8,7 +8,7 @@ class qw:
         
     
     def call_with_prompt(self, query):
-        dashscope.api_key = 'yourapikey'
+        dashscope.api_key = 'sk-2f4c3024b43d4d0c98672ddb02096f13'
         response = dashscope.Generation.call(
             model=dashscope.Generation.Models.qwen_turbo,
             prompt=self.text_processor.prompt + '\n' + query
