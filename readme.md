@@ -9,3 +9,5 @@ llm is not inferencing locally, call with your own api key
 更换asr模型参考fun_asr.py文件，使用fun_asr已集成的模型，更改pipline内的参数；使用fun_asr以外的模型和框架，重起文件实现同名函数
 
 更换llm api参考sparkAPIcall.py和qwenAPIcall.py，重起文件实现同名函数
+
+文件调用关系：ui.py调用workflow.py；workflow.py调用asr_res.py和qwenAPIcall.py或sparkAPIcall.py以及textchain.py
